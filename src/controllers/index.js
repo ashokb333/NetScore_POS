@@ -7,8 +7,7 @@ var sampleApp = angular.module('sampleApp', ['ui.bootstrap']).filter('startFrom'
 	 
 });
 sampleApp.controller('sampleController', function ($scope, $http, $window) {
-			 
-	//-----------Check User Credentials --------------------------
+			  
 	    $scope.defpricetab = function() { 
 			$scope.qty=0;
 			$scope.price=0;
